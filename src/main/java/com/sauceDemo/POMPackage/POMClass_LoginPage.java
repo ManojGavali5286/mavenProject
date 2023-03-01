@@ -13,8 +13,8 @@ public class POMClass_LoginPage
 	//action webelement
 	
 	//1.WebDriver declared
-	 private WebDriver driver;
-	 private Actions act;
+	 private WebDriver driver; 
+	 private Actions act; 
 	 
 	 //2.Find WebElement-username 
 	 //do not use findElement method
@@ -29,7 +29,7 @@ public class POMClass_LoginPage
 	 private WebElement password;
 	 
 	 @FindBy(xpath="//input[@id='login-button']")
-	 private WebElement loginBtn;
+	 private  WebElement loginBtn;
 	 
 	 //3.Ele --> action perform
 	 //maitain them in method

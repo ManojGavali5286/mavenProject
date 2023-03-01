@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.sauceDemo.POMPackage.POMClass_LoginPage;
@@ -20,22 +21,22 @@ public class TestBaseClass
 {
    WebDriver driver;
    
-   Logger log = Logger.getLogger("SauceDemoProject-30JulyBatch");
+   Logger log = Logger.getLogger("SauceDemoProject");
 	
     @Parameters("browserName")
 	@BeforeMethod
-	public void setUp(String browserName) throws IOException
+	public void setUp(@Optional("chrome") String browserName) throws IOException
 	{
 		if(browserName.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", 
-					"./DriverFolder/chromedriver.exe");			
+					"C:\\MANOJ TESTING\\DRIVERS AND TOOLS\\chromedriver_win32\\chromedriver.exe");			
 			driver = new ChromeDriver();
 		}
 		else
 		{
 			System.setProperty("webdriver.gecko.driver", 
-					"./DriverFolder/geckodriver.exe");			
+					".//DriverFolder//geckodriver.exe");			
 			driver = new FirefoxDriver();		
 		}
 		
@@ -49,7 +50,7 @@ public class TestBaseClass
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		
 		driver.get("https://www.saucedemo.com/");
-		log.info("url is opened");
+		log.info("url is opened");       // PRINT 
 		
 		//screenshot
 		UtililityClass.screenShotMethod(driver, "Loginpakaj");

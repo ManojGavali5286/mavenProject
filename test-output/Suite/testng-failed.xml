@@ -4,6 +4,27 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browserName" value="chrome"/>
     <classes>
+      <class name="com.sauceDemo.TestPackage.TC01_VerifyLoginFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyLoginFunctionality"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestPackage.TC01_VerifyLoginFunctionality -->
+      <class name="com.sauceDemo.TestPackage.TC02_VerifyLogOutFunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyLogOutFunctionality"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestPackage.TC02_VerifyLogOutFunctionality -->
+      <class name="com.sauceDemo.TestPackage.TC03_VerifyBagProductAddToCartFunctionality">
+        <methods>
+          <include name="verifyBagProductAddToCartFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sauceDemo.TestPackage.TC03_VerifyBagProductAddToCartFunctionality -->
       <class name="com.sauceDemo.TestPackage.TC04_VerifyAllProductsAddToCart_Functionality">
         <methods>
           <include name="verifyAllProductsAddToCartFunctionality"/>

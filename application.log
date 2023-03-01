@@ -39,3 +39,44 @@
 2023-01-03 21:49:36,216  INFO [main] SauceDemoProject-30JulyBatch:68 - Went on HomePage
 2023-01-03 21:49:39,885  INFO [main] SauceDemoProject-30JulyBatch:78 - browser is closed
 2023-01-03 21:49:39,887  INFO [main] SauceDemoProject-30JulyBatch:80 - End of Program
+2023-01-08 21:19:47,866  INFO [main] SauceDemoProject-30JulyBatch:44 - browser is opened
+2023-01-08 21:19:48,080  INFO [main] SauceDemoProject-30JulyBatch:47 - browser is maximized
+2023-01-08 21:19:49,467  INFO [main] SauceDemoProject-30JulyBatch:52 - url is opened
+2023-01-08 21:19:50,209  INFO [main] SauceDemoProject-30JulyBatch:59 - usernaeme is entered
+2023-01-08 21:19:50,383  INFO [main] SauceDemoProject-30JulyBatch:62 - password eneterd
+2023-01-08 21:19:50,796  INFO [main] SauceDemoProject-30JulyBatch:65 - clicked on login button
+2023-01-08 21:19:50,796  INFO [main] SauceDemoProject-30JulyBatch:68 - Went on HomePage
+2023-01-08 21:19:51,421  INFO [main] SauceDemoProject-30JulyBatch:22 - Apply the Validation
+2023-01-08 21:19:52,630  INFO [main] SauceDemoProject-30JulyBatch:78 - browser is closed
+2023-01-08 21:19:52,630  INFO [main] SauceDemoProject-30JulyBatch:80 - End of Program
+2023-01-08 21:19:54,924  INFO [main] SauceDemoProject-30JulyBatch:44 - browser is opened
+2023-01-08 21:19:55,167  INFO [main] SauceDemoProject-30JulyBatch:47 - browser is maximized
+2023-01-08 21:19:56,250  INFO [main] SauceDemoProject-30JulyBatch:52 - url is opened
+2023-01-08 21:19:56,860  INFO [main] SauceDemoProject-30JulyBatch:59 - usernaeme is entered
+2023-01-08 21:19:57,068  INFO [main] SauceDemoProject-30JulyBatch:62 - password eneterd
+2023-01-08 21:19:57,452  INFO [main] SauceDemoProject-30JulyBatch:65 - clicked on login button
+2023-01-08 21:19:57,455  INFO [main] SauceDemoProject-30JulyBatch:68 - Went on HomePage
+2023-01-08 21:19:58,407  INFO [main] SauceDemoProject-30JulyBatch:24 - Clicked on Setting Btn
+2023-01-08 21:19:58,540  INFO [main] SauceDemoProject-30JulyBatch:28 - Clicked on LogOut btn
+2023-01-08 21:19:58,546  INFO [main] SauceDemoProject-30JulyBatch:31 - went on login page
+2023-01-08 21:19:58,546  INFO [main] SauceDemoProject-30JulyBatch:34 - Apply the Validation
+2023-01-08 21:19:59,311  INFO [main] SauceDemoProject-30JulyBatch:78 - browser is closed
+2023-01-08 21:19:59,314  INFO [main] SauceDemoProject-30JulyBatch:80 - End of Program
+2023-01-08 21:20:01,618  INFO [main] SauceDemoProject-30JulyBatch:44 - browser is opened
+2023-01-08 21:20:01,943  INFO [main] SauceDemoProject-30JulyBatch:47 - browser is maximized
+2023-01-08 21:20:03,069  INFO [main] SauceDemoProject-30JulyBatch:52 - url is opened
+2023-01-08 21:20:03,655  INFO [main] SauceDemoProject-30JulyBatch:59 - usernaeme is entered
+2023-01-08 21:20:03,865  INFO [main] SauceDemoProject-30JulyBatch:62 - password eneterd
+2023-01-08 21:20:04,297  INFO [main] SauceDemoProject-30JulyBatch:65 - clicked on login button
+2023-01-08 21:20:04,298  INFO [main] SauceDemoProject-30JulyBatch:68 - Went on HomePage
+2023-01-08 21:20:05,993  INFO [main] SauceDemoProject-30JulyBatch:78 - browser is closed
+2023-01-08 21:20:05,993  INFO [main] SauceDemoProject-30JulyBatch:80 - End of Program
+2023-01-08 21:20:08,122  INFO [main] SauceDemoProject-30JulyBatch:44 - browser is opened
+2023-01-08 21:20:08,459  INFO [main] SauceDemoProject-30JulyBatch:47 - browser is maximized
+2023-01-08 21:20:09,849  INFO [main] SauceDemoProject-30JulyBatch:52 - url is opened
+2023-01-08 21:20:10,446  INFO [main] SauceDemoProject-30JulyBatch:59 - usernaeme is entered
+2023-01-08 21:20:10,648  INFO [main] SauceDemoProject-30JulyBatch:62 - password eneterd
+2023-01-08 21:20:11,015  INFO [main] SauceDemoProject-30JulyBatch:65 - clicked on login button
+2023-01-08 21:20:11,016  INFO [main] SauceDemoProject-30JulyBatch:68 - Went on HomePage
+2023-01-08 21:20:13,175  INFO [main] SauceDemoProject-30JulyBatch:78 - browser is closed
+2023-01-08 21:20:13,175  INFO [main] SauceDemoProject-30JulyBatch:80 - End of Program

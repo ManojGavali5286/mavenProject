@@ -16,8 +16,8 @@ public class POMClass_HomePage
 	//4.constructor declare
 	
 	//1.WebDriver declared
-	private WebDriver driver;
-	private Select s;
+	 private WebDriver driver;
+	 private Select s;
 	
 	//2.Find WebElement
 	//3.Ele --> action perform
@@ -31,7 +31,7 @@ public class POMClass_HomePage
 	}
 	
 	@FindBy(xpath="//a[@id='logout_sidebar_link']")
-	WebElement logOutBtn;
+	private WebElement logOutBtn;
 	
 	public void clickLogOutBtn()
 	{
@@ -40,7 +40,7 @@ public class POMClass_HomePage
 	
 	//bagprdt
 	@FindBy(xpath="//button[@id='add-to-cart-sauce-labs-backpack']")
-	WebElement bagProduct;
+	private WebElement bagProduct;
 	
 	public void clickBagProduct()
 	{
@@ -50,7 +50,7 @@ public class POMClass_HomePage
 	
 	//addToCart
 	@FindBy(xpath="//span[@class='shopping_cart_badge']")
-	WebElement addToCartBtn;
+	private WebElement addToCartBtn;
 	
 	public String getTextFromAddToCartBtn()
 	{
@@ -76,7 +76,7 @@ public class POMClass_HomePage
 	//Assignment-> write one scenario
 	//fliter dropDown
 	@FindBy(xpath="//select[@class='shopping_cart_badge']")
-	WebElement filterDropDown;
+	private WebElement filterDropDown;
 	
 	public void clickOnFilterButton()
 	{
